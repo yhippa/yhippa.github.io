@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NodeSchool is pretty fun"
-date:   2015-08-12 11:28:00
+date:   2015-08-13 17:58:00
 categories: blog
 ---
 
@@ -14,11 +14,11 @@ I ran the workshopper using the OS X default terminal.  The workshopper displays
 Whomever is behind the workshopper is a very generous person!  I ran through the exercises and I like the feedback loop I get from progressively completing the exercises.  I do feel that it helps to have some programming background before trying these out.  Curious to know how this would work with someone who's never touched a line of code in his or her life.
 
 One thing I am trying to decide is whether to go through the workshops in order or just jump straight to the Node stuff:
-1.  [javascripting](https://www.github.com/sethvincent/javascripting)
-2.  [git-it](https://www.github.com/jlord/git-it)
-3.  [Scopes Chains & Closures](https://www.github.com/jesstelford/scope-chains-closures)
-4.  [learnyounode](https://www.github.com/workshopper/learnyounode)
-5.  [How to npm](https://github.com/npm/how-to-npm)
-6.  [stream-adventure](https://www.github.com/substack/stream-adventure)
+1. [javascripting](https://www.github.com/sethvincent/javascripting)
+2. [git-it](https://www.github.com/jlord/git-it)
+3. [Scopes Chains & Closures](https://www.github.com/jesstelford/scope-chains-closures)
+4. [learnyounode](https://www.github.com/workshopper/learnyounode)
+5. [How to npm](https://github.com/npm/how-to-npm)
+6. [stream-adventure](https://www.github.com/substack/stream-adventure)
 
 There are a ton of electives too which is neat.  Can't wait to go through these.  I feel like modern frameworks and languages have a lot better ways of learning than the older ones.
