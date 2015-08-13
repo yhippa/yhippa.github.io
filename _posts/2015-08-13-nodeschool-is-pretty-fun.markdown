@@ -14,6 +14,7 @@ I ran the workshopper using the OS X default terminal.  The workshopper displays
 Whomever is behind the workshopper is a very generous person!  I ran through the exercises and I like the feedback loop I get from progressively completing the exercises.  I do feel that it helps to have some programming background before trying these out.  Curious to know how this would work with someone who's never touched a line of code in his or her life.
 
 One thing I am trying to decide is whether to go through the workshops in order or just jump straight to the Node stuff:
+
 1. [javascripting](https://www.github.com/sethvincent/javascripting)
 2. [git-it](https://www.github.com/jlord/git-it)
 3. [Scopes Chains & Closures](https://www.github.com/jesstelford/scope-chains-closures)
