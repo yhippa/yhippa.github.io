@@ -5,7 +5,8 @@ description: I primarily post musings about software development and technology 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yhippa.github.io" # the base hostname & protocol for your site
 twitter_username: Yhippa
-github_username:  yhippa
+github_username: yhippa
+comments: true
 
 # Build settings
 markdown: kramdown
