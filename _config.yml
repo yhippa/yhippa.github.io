@@ -9,4 +9,4 @@ github_username: yhippa
 
 # Build settings
 markdown: kramdown
-theme: Cayman
+theme: jekyll-theme-cayman
