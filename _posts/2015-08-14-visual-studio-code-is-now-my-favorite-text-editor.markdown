@@ -3,6 +3,7 @@ layout: post
 title:  "Visual Studio Code is now my favorite text editor"
 date:   2015-08-14 15:36:00
 categories: blog
+comments: true
 ---
 
 The way I tend to use tools is I'll try something out for a while.  If it comes natrually to me I'll keep on using it until it proves to be too cumbersome or breaks.  If that's the case I'll be on the lookout for a new tool.
