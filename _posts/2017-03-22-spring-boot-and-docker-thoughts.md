@@ -2,7 +2,7 @@
 layout: post
 title:  "Spring Boot and Docker Thoughts"
 date:   2017-03-22 14:57:00
-categories: blog
+tags: [springboot, docker]
 comments: true
 ---
 
@@ -16,7 +16,7 @@ There are two things you need to do to be able to push to Docker Hub:
 
 # Store your credentials in your Maven settings.xml file
 You may or may not already have this in your directory.  Typically Maven puts it in `${user.home}/.m2/settings.xml` but may not exist as typically you have to create one from scratch.  See Maven's [Settings Reference](https://maven.apache.org/settings.html) for more detail.  If you already have one add the server tag and all child elements to your "servers" section.  Otherwise you can use the below snippet in it's entriety:
-```xml
+{% highlight xml linenos %}
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
     <servers>
         <server>
@@ -29,11 +29,11 @@ You may or may not already have this in your directory.  Typically Maven puts it
         </server>
     </servers>
 </settings>
-```
+{% endhighlight %}
 
 # Make sure the Docker Plugin has access to said credentials
 In your POM you need to make sure that you insert the "serverId" in your configuration.  Use the same name that was the "id" in the previous step:
-```xml
+{% highlight xml linenos %}
 <plugin>
     <groupId>com.spotify</groupId>
     <artifactId>docker-maven-plugin</artifactId>
@@ -55,7 +55,7 @@ In your POM you need to make sure that you insert the "serverId" in your configu
         </imageTags>
     </configuration>
 </plugin>
-```
+{% endhighlight %}
 Per the documentation you don't need to specify a URL to the registry if you're using Docker Hub as it uses [https://index.docker.io/v1/](https://index.docker.io/v1/).  If you do add have a URL to a specific registry add a sibling element to `serverId`: `<registryUrl>https://index.docker.io/v1/</registryUrl>`.  Now running `mvn package docker:build -DpushImage` should work and you can continue with the rest of the guide!
 
 I really like the Docker Maven Plugin.  It makes publishing a deployable and executable artifact a breeze. I've been using [Jenkins Pipeline](https://jenkins.io/doc/book/pipeline/) to develop a delivery pipeline and it seems that it would be very easy to incorporate this into it.
