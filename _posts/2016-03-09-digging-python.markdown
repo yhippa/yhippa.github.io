@@ -3,6 +3,7 @@ layout: post
 title:  "Digging Python"
 date:   2016-03-09 00:57:00
 categories: blog
+comments: true
 ---
 
 I dusted off my [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) today and looked around for some Python resources.  I remembered seeing some documentation from the various vendors that sell the Pi that it's great to learn Python on.  I am pretty sure this is for kids to learn and seeing how I'm a professional developer this has to be a walk in the park right?
