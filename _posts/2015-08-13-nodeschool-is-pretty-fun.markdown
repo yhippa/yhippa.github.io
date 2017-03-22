@@ -3,6 +3,7 @@ layout: post
 title:  "NodeSchool is pretty fun"
 date:   2015-08-13 17:58:00
 categories: blog
+comments: true
 ---
 
 A friend and I have committed to do the [NodeSchool](http://nodeschool.io/) courses to learn Node.js.  We've even gone to the length to create a Slack group to keep each other motivated
