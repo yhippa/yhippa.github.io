@@ -6,9 +6,9 @@ categories: blog
 comments: true
 ---
 
-This is completely random but I read a [TechCrunch article about how Windows Phone could make a comeback](https://techcrunch.com/2017/07/28/microsofts-slow-creep-back-into-mobile/) in part because of Progressive Web Apps.  I'll be honest: this has been a desire of mine since Apple released the very first iPhone "apps" which were intended to be apps that worked with the phone APIs.  Check out this video from 2007 when the iPhone was first announced that describes this: https://www.youtube.com/watch?v=v1BL8doi6wY#.
+This is completely random but I read a [TechCrunch article about how Windows Phone could make a comeback](https://techcrunch.com/2017/07/28/microsofts-slow-creep-back-into-mobile/) in part because of Progressive Web Apps.  I'll be honest: this has been a desire of mine since Apple released the very first iPhone "apps" which were intended to be apps that worked with the phone APIs.  Check out this video from 2007 when the iPhone was first announced that describes this: [Steve Jobs introduces iPhone Web Apps & Safari for Windows - WWDC (2007)](https://youtu.be/v1BL8doi6wY?t=1h12m55s).  The link jumps to the end of the video where Steve Jobs surprises us with his "one last thing" bit.
 
-What is a Progressive Web App?
+What is a Progressive Web App?  There are a lot of definitions out there so I'll throw my hat into the ring.  I initially got this concept confused with responsive web apps.  Responsive seems to cover the case of showing a subset of a full UI and it's content based on the medium it's being viewed on.  Progressive to me covers the type of device it's covered on as well as the subset of it's capabilities.  For example handling the case of being able to use a page on- or offline.  There's also the concept of having a more custom UI that is more tailored to the native features of the device it's being utilized on.  Feel free to correct me or add anything I'm missing that's important.
 
 In the future if this catches on I could try out different types of phones that have different capabilities and still get access to the important apps I need as long as I have an internet connection.  The best part of these Progressive Web Apps is that you can cache the app code and still have it work offline.
 
