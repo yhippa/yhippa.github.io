@@ -9,3 +9,5 @@ github_username: yhippa
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-hacker
